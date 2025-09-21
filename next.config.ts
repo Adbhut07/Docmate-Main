@@ -30,6 +30,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Additional Vercel deployment optimizations
+  serverExternalPackages: ['wav'],
+  // Ensure proper output configuration for Vercel
+  output: 'standalone',
 };
 
 export default nextConfig;

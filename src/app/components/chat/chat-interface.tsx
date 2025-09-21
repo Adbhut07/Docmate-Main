@@ -17,7 +17,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import type { ChatMessage } from '@/lib/definitions';
 import { mockDocuments } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
-import { Skeleton } from '../ui/skeleton';
+import { Skeleton } from '@/components/ui/skeleton';
 
 export function ChatInterface() {
   const [messages, setMessages] = useState<ChatMessage[]>([
